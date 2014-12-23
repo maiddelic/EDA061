@@ -1,0 +1,46 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=XL/src<xl_extra{Address.java[Address"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="622"/>
+      <y="258"/>
+   </type>
+   <type>
+      <name="=XL/src<xl_extra{Adjustment.java[Adjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="264"/>
+      <y="10"/>
+   </type>
+   <type>
+      <name="=XL/src<xl_extra{NumberAdjustment.java[NumberAdjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="234"/>
+      <y="306"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=XL/src<xl_extra{NumberAdjustment.java[NumberAdjustment"/>
+      <targetType="=XL/src<xl_extra{Adjustment.java[Adjustment"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <type>
+      <name="=XL/src<xl_extra{XLException.java[XLException"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="630"/>
+      <y="48"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=XL/src<xl_extra{Address.java[Address"/>
+      <targetType="=XL/src<xl_extra{XLException.java[XLException"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

@@ -1,0 +1,39 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=ComputerFinal/src<Memory{Memory.java[Memory"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="220"/>
+      <y="35"/>
+   </type>
+   <type>
+      <name="=ComputerFinal/src<Memory{LongMemory.java[LongMemory"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="42"/>
+      <y="253"/>
+   </type>
+   <type>
+      <name="=ComputerFinal/src<Memory{VeryLongMemory.java[VeryLongMemory"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="345"/>
+      <y="266"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=ComputerFinal/src<Memory{VeryLongMemory.java[VeryLongMemory"/>
+      <targetType="=ComputerFinal/src<Memory{Memory.java[Memory"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=ComputerFinal/src<Memory{LongMemory.java[LongMemory"/>
+      <targetType="=ComputerFinal/src<Memory{Memory.java[Memory"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+

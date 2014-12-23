@@ -1,0 +1,32 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=XLProject/src<xl{NumberAdjustment.java[NumberAdjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="64"/>
+      <y="6"/>
+   </type>
+   <type>
+      <name="=XLProject/src<xl{Address.java[Address"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="435"/>
+      <y="28"/>
+   </type>
+   <type>
+      <name="=XLProject/src<xl{Adjustment.java[Adjustment"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="88"/>
+      <y="279"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=XLProject/src<xl{NumberAdjustment.java[NumberAdjustment"/>
+      <targetType="=XLProject/src<xl{Adjustment.java[Adjustment"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
